@@ -6,7 +6,7 @@ export default () => {
       <h1>
         Hello world!
       </h1>
-      <Link href="/test">테스트 시작하기</Link>
+      <Link href="./test">테스트 시작하기</Link>
     </div>
   )
 }

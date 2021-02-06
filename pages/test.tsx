@@ -47,7 +47,7 @@ export default () => {
           onClickAnswer={handleMbti}
         />
         ): (
-          <Link href={`/results/${resolveMbti(ei,sn,tf,jp)}`}>결과 보러 가기</Link>
+          <Link href={`./results/${resolveMbti(ei,sn,tf,jp)}`}>결과 보러 가기</Link>
         )
       }
     </div>
